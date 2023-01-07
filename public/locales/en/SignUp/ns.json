@@ -1,0 +1,7 @@
+{
+  "CreateAccount": "Create An Account",
+  "FillForm": "Fill The Form Below In Order To Create Your Account",
+  "AccountCreate": "Account Created Successfully, Check your email to verify account",
+  "AccountCreateFail": "Failed to create account",
+  "Creating": "Creating account..."
+}

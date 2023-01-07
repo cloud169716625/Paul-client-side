@@ -1,0 +1,73 @@
+.ep {
+  padding: 0px 140px;
+  &__heading {
+    margin: 40px 0px;
+    font: normal normal normal 24px/28px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  &__container {
+    background: #1e1e2d 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 20px;
+    &-wrapper {
+      .rdw-editor-toolbar {
+        background: #1e1e2d;
+        border: unset;
+        padding: unset;
+        & > * {
+          border-right: 1px dashed #323248;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        & > div {
+          &:first-child {
+            padding-left: 0px;
+          }
+          &:last-child {
+            border-right: unset;
+            padding-right: 0px;
+          }
+        }
+      }
+      .rdw-option-wrapper {
+        border: unset;
+        background: #171723 0% 0% no-repeat padding-box;
+        padding: 8px;
+        height: unset;
+        border-radius: 8px;
+        transition: all 0.2s ease-in;
+        &:hover {
+          box-shadow: unset;
+          background: #0a0a0e 0% 0% no-repeat padding-box;
+        }
+      }
+      .rdw-option-active {
+        box-shadow: unset;
+        background: #0a0a0e 0% 0% no-repeat padding-box;
+      }
+      .public-DraftEditorPlaceholder-inner {
+        color: #484853;
+      }
+    }
+    &-editor {
+      border-top: 1px dashed #323248;
+      color: #474761;
+    }
+
+    &-link {
+      height: auto;
+      background: #151521;
+      box-shadow: 3px 3px 5px #2a2a35;
+      border: 1px solid #2a2a35;
+      .rdw-link-modal-label {
+        color: #ffffff;
+      }
+      .rdw-link-modal-target-option {
+        color: #ffffff;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <g id="vuesax_bulk_lock" data-name="vuesax/bulk/lock" transform="translate(-172 -252)">
+    <g id="lock" transform="translate(172 252)">
+      <path id="Vector" d="M81.5,40.75A40.75,40.75,0,1,1,40.75,0,40.75,40.75,0,0,1,81.5,40.75Z" transform="translate(259.25 352.25)" fill="#151521" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M366.25,0H133.75C31.25,0,0,31.25,0,133.75v46.5C0,282.75,31.25,314,133.75,314h232.5C468.75,314,500,282.75,500,180.25v-46.5C500,31.25,468.75,0,366.25,0ZM250,232.5A75.5,75.5,0,1,1,325.5,157,75.593,75.593,0,0,1,250,232.5Z" transform="translate(50 236)" fill="#151521"/>
+      <path id="Vector-3" data-name="Vector" d="M35,186.25V157C35,83.75,55.75,35,157,35S279,83.75,279,157v29.25c12.75.25,24.25.75,35,2.25V157C314,89.5,297.75,0,157,0S0,89.5,0,157v31.25A297.264,297.264,0,0,1,35,186.25Z" transform="translate(143 50)" fill="#151521" opacity="0.4"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H600V600H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

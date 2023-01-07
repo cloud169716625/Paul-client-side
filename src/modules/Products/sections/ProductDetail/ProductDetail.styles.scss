@@ -1,0 +1,51 @@
+.admin-details {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  &__user-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    &-img {
+      padding-bottom: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      &-box {
+        background: #1e1e2d 0% 0% no-repeat padding-box;
+        border: 2px solid #3699ff;
+        border-radius: 8px;
+        padding: 8px;
+        margin-bottom: 16px;
+        &-el {
+          border-radius: 8px;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  &__right {
+  }
+}
+
+.ant-picker.ant-picker-disabled {
+  background: #323248;
+  border-color: #323248;
+  cursor: not-allowed;
+  color: #92928f !important;
+}
+.ant-picker-input > input[disabled] {
+  color: #92928f !important;
+}
+.ant-dropdown{
+  border-radius: 5px;
+}
+.modal.fade .modal-dialog{
+  transform: translate(0, 70px);
+}
+.grid-cols-2{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}

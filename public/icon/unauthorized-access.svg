@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <g id="vuesax_bulk_shield" data-name="vuesax/bulk/shield" transform="translate(-236 -188)">
+    <g id="shield" transform="translate(236 188)">
+      <path id="Vector" d="M420.5,123.938v71L95.25,433.438,29.5,384.188C13.25,371.938,0,345.688,0,325.438v-201.5c0-28,21.5-59,47.75-68.75L184.5,3.938c14.25-5.25,37.25-5.25,51.5,0l136.75,51.25C399,64.938,420.5,95.938,420.5,123.938Z" transform="translate(89.75 50.063)" fill="#151521" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M302.25,0V96.25c0,20.25-13.25,46.5-29.5,58.75L136,257.25c-12,9-28,13.5-44,13.5s-32-4.5-44-13.5L0,221.5Z" transform="translate(208 279.25)" fill="#151521"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H600V600H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

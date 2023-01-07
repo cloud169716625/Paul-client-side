@@ -1,0 +1,33 @@
+.custom-drawer__drawer {
+  // Header Styles
+  .ant-drawer-header {
+    padding: 32px;
+    color: #fff;
+    background: #1e1e2d;
+    border-bottom: 1px dashed #323248;
+    border-radius: 0px;
+    flex-flow: row-reverse;
+
+    .ant-drawer-title {
+      font-size: 20px;
+      color: #fff;
+    }
+    .anticon.anticon-close {
+      color: #fff;
+    }
+  }
+
+  // Body Styles
+  .ant-drawer-body {
+    background: #1e1e2d;
+    color: #fff;
+    padding: 32px;
+  }
+
+  .ant-drawer-footer {
+    border-top: 1px dashed #323248;
+    background: #1e1e2d;
+    color: #fff;
+    padding: 32px;
+  }
+}

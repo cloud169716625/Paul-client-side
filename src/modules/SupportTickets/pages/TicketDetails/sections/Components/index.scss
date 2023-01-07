@@ -1,0 +1,52 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.popup {
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  background-clip: padding-box;
+  border-radius: 4px;
+  background: #232333;
+  background: #232333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  left: 0px;
+  list-style-type: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 12px 0px;
+}
+
+.popup li {
+  clear: both;
+  color: #616166;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  margin: 0;
+  padding: 5px 12px;
+  transition: all 0.3s;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s;
+}
+
+.popup li:hover {
+  background: #27273a;
+  color: #fff;
+}
+
+.popup li > i {
+  margin-right: 8px;
+}

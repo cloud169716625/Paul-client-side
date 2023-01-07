@@ -1,0 +1,24 @@
+.up-custom-logs__table {
+  .custom-table {
+    .custom-table__top-row {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    .ant-table-thead > tr > th {
+      background: #28283a;
+      border-bottom: 1px solid #28283a;
+      font-family: Poppins;
+      color: #ffffff;
+      text-transform: unset;
+    }
+
+    .ant-table-tbody > tr > td {
+      color: #6d6d80;
+    }
+
+    .ant-table-pagination.ant-pagination {
+      margin: 32px 16px 0px 16px;
+    }
+  }
+}

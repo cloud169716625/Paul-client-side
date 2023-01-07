@@ -1,0 +1,59 @@
+.custom-article-card {
+  &__more {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    &-dd {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+  }
+  width: 100%;
+  cursor: pointer;
+}
+
+.docx{
+width: 40px;
+height: 40px;
+background: #1C3238 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+align-content: center;
+justify-content: center;
+display: flex;
+padding: 5px;
+}
+.docx-l{
+width: 40px;
+height: 40px;
+background: #2F264F 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+align-content: center;
+justify-content: center;
+display: flex;
+padding: 5px;
+}
+
+.imgx-p{
+  background: url('doc.svg');
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+.imgx-l{
+  background: url('doc2.svg');
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+.title-article{
+  text-align: left;
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

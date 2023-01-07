@@ -1,0 +1,15 @@
+{
+  "NewHere": "New here?",
+  "ClickHere": "Click Here",
+  "CreateAccount": "to create an account.",
+  "UserNotFound": "User Not found, Please check your credentials",
+  "UserNotActive": "User Not Active",
+  "AccountSuspended": "Account has been suspended, Please contact administration",
+  "CredentialInvalid": "Provided Credentials are invalid.",
+  "InvalidCredential": "Invalid Credentials, Please check your email or password",
+  "6DigitCode": "Please enter the 6 figure code from you MFA App",
+  "VerifyOtp": "Please verify otp to login",
+  "LoginSuccess": "You have logged in successfuly",
+  "LoginFail": "Failed to Login",
+  "LoginIn": "Logging in..."
+  }

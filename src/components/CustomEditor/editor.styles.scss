@@ -1,0 +1,266 @@
+.custom-configuration-editor {
+  &__container {
+    background: #1e1e2d 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+
+    &-wrapper {
+      // Link Modal
+      .rdw-link-modal {
+        background: #1e1e2d;
+        box-shadow: rgb(0 0 0 / 40%) 0px 0px 40px;
+        border-color: #171723;
+        border-radius: 8px;
+        top: 40px;
+        color: #92928f;
+        height: 285px;
+        label {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          gap: 7px;
+        }
+        input {
+          height: 40px;
+          background: #171723;
+          border: none;
+          color: #92928f;
+          padding-left: 6px;
+          border-radius: 8px;
+          margin: 0px;
+        }
+        .rdw-link-modal-buttonsection {
+          margin-left: 0px;
+          margin-right: 0px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 8px;
+          .rdw-link-modal-btn {
+            width: 100%;
+            margin: 0px;
+            height: 40px;
+            border-radius: 8px;
+            background: #3699ff;
+            outline: none;
+            border: none;
+            color: white;
+            &:hover {
+              background: #3699ff;
+              outline: none;
+              border: none;
+              box-shadow: none;
+            }
+            &:disabled {
+              background: #6fafef;
+              cursor: not-allowed;
+            }
+          }
+        }
+      }
+      // Image Modal
+      .rdw-image-modal {
+        background: #1e1e2d;
+        box-shadow: rgb(0 0 0 / 40%) 0px 0px 40px;
+        border-color: #171723;
+        border-radius: 8px;
+        top: 40px;
+        // Header of Image Modal
+        .rdw-image-modal-header-option {
+          color: #92928f;
+          .rdw-image-modal-header-label-highlighted {
+            background: unset;
+            border: unset;
+            border-bottom: 3px solid #3699ff;
+          }
+        }
+        // URL Section of Image Modal
+        .rdw-image-modal-url-section {
+          background: #171723;
+          border-color: #171723;
+          // padding: 8px;
+          height: 40px;
+          border-radius: 8px;
+          .rdw-image-modal-url-input {
+            margin: 0px;
+            background: #171723;
+            border: none;
+            color: #92928f;
+          }
+        }
+        // Sizes Section of Image Modal
+        .rdw-image-modal-size {
+          color: #92928f;
+          margin-top: 20px;
+          height: 40px;
+          input {
+            height: 40px;
+            background: #171723;
+            border: none;
+            color: #92928f;
+            padding-left: 6px;
+            border-radius: 8px;
+          }
+        }
+        // Buttons Section of Image Modal
+        .rdw-image-modal-btn-section {
+          margin-top: 12px;
+          margin-left: 0px;
+          margin-right: 0px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 8px;
+
+          .rdw-image-modal-btn {
+            width: 100%;
+            margin: 0px;
+            height: 40px;
+            border-radius: 8px;
+            background: #3699ff;
+            outline: none;
+            border: none;
+            color: white;
+            &:hover {
+              background: #3699ff;
+              outline: none;
+              border: none;
+              box-shadow: none;
+            }
+            &:disabled {
+              background: #6fafef;
+              cursor: not-allowed;
+            }
+          }
+        }
+      }
+      .rdw-editor-main pre {
+        background: #1e1e2d 0% 0% no-repeat padding-box;
+      }
+      .rdw-editor-toolbar {
+        display: flex;
+        align-items: center;
+        background: #1e1e2d;
+        border: unset;
+        padding: 20px 16px 14px 16px;
+        gap: 12px;
+        margin: 0px;
+        & > * {
+          // padding-left: 16px;
+          // padding-right: 16px;
+        }
+        & > div {
+          &:first-child {
+            padding-left: 0px;
+          }
+          &:last-child {
+            border-right: unset;
+            padding-right: 0px;
+          }
+        }
+      }
+      .rdw-option-wrapper {
+        border: unset;
+        background: transparent;
+        padding: 8px;
+        height: unset;
+        border-radius: 8px;
+        transition: all 0.2s ease-in;
+        color: #92928f;
+        &:hover {
+          box-shadow: unset;
+          background: #0a0a0e 0% 0% no-repeat padding-box;
+        }
+      }
+      .rdw-option-active {
+        box-shadow: unset;
+        background: #0a0a0e 0% 0% no-repeat padding-box;
+      }
+      .public-DraftEditorPlaceholder-inner {
+        color: #92928f;
+        padding: 0px 32px;
+      }
+      .public-DraftStyleDefault-block {
+        margin: 32px;
+      }
+    }
+
+    &-editor {
+      border-top: 1px dashed #323248;
+      color: #fff;
+      font-weight: 300;
+    }
+
+    &-link {
+      height: auto;
+      background: #151521;
+      box-shadow: 3px 3px 5px #2a2a35;
+      border: 1px solid #2a2a35;
+      .rdw-link-modal-label {
+        color: #ffffff;
+      }
+      .rdw-link-modal-target-option {
+        color: #ffffff;
+      }
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20.8px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 12.8px;
+  }
+  h6 {
+    font-size: 11.2px;
+  }
+}
+
+.custom-multiselect-mass-email-clients {
+  .custom-select-component {
+    .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+      .ant-select-selector {
+      border-color: transparent;
+      box-shadow: none;
+    }
+    .ant-select {
+      border-radius: 8px;
+      .ant-select-selector {
+        padding-left: 0px !important;
+        background-color: #28283a;
+        border-color: #28283a;
+        min-height: 52px;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        border-radius: 8px;
+      }
+
+      .ant-select-selection-item {
+        color: #92928f;
+      }
+    }
+  }
+}
+
+.demo-option-custom{
+  height: 30px;
+  width: 30px;
+}
+
+.toolBarX{
+font-size: 10px;
+}

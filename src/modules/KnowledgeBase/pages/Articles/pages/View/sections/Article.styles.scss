@@ -1,0 +1,29 @@
+.article-dropdown {
+  &__more {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    &-dd {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+    }
+  }
+}
+
+.article-body{
+  text-align: left;
+  font: normal normal normal 16px/32px Poppins;
+  letter-spacing: 0px;
+  color: #92928F;
+  h1{
+    text-align: left;
+    font: normal normal 600 28px/32px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+  h2{
+    text-align: left;
+    font: normal normal 600 16px/32px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+}

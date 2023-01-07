@@ -1,0 +1,94 @@
+.custom-list {
+  .ant-empty-description {
+    color: white;
+  }
+  .ant-list-split.ant-list-something-after-last-item
+    .ant-spin-container
+    > .ant-list-items
+    > .ant-list-item:last-child {
+    border-bottom: 1px dashed #474761;
+  }
+  .ant-list-split .ant-list-item {
+    border-bottom: 1px dashed #474761;
+  }
+
+  .ant-list-split .ant-list-header {
+    border-bottom: 1px dashed #474761;
+    color: #474761;
+    text-transform: uppercase;
+  }
+
+  .ant-list-item {
+    padding: 16px 0;
+  }
+
+  // Pagination Styles
+  .ant-list-pagination {
+    text-align: left;
+  }
+  .ant-pagination {
+    // All LI Styles
+    li.ant-pagination-item {
+      border-radius: 8px;
+      border: none;
+      background-color: transparent;
+      a {
+        background: #212e48;
+        border-radius: 8px;
+        color: #3699ff;
+        width: 32px;
+        height: 32px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    // Active Item Styles
+    li.ant-pagination-item-active {
+      a {
+        background: #3699ff;
+        border-radius: 8px;
+        color: #fff;
+      }
+    }
+
+    // Container
+    .ant-pagination-item-container {
+      display: flex;
+      height: 32px;
+      width: 32px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+      // Ellipses Styles
+      .ant-pagination-item-ellipsis {
+        color: #616166;
+      }
+    }
+  }
+  // Next / Prev Btns
+  .ant-pagination-next,
+  .ant-pagination-prev {
+    button {
+      color: #3699ff;
+      background: #212e48;
+      padding: 0px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-color: #212e48;
+      border-radius: 8px;
+    }
+  }
+  // Disabled Btns
+  .ant-pagination-disabled {
+    button {
+      color: #92928f;
+      background: #323248;
+      border-color: #323248;
+    }
+  }
+}

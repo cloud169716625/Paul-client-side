@@ -1,0 +1,21 @@
+{
+  "UserNotActive": "User Not Active",
+  "AccountSuspended": "Account has been suspended, Please contact administration",
+  "InvalidCredentials": "Provided Credentials are invalid.",
+  "InvalidCredentialsPassword": "Invalid Credentials, Please enter correct password",
+  "VerifyOtp": "Please verify otp to login",
+  "LoginSuccess": "You have logged in successfuly",
+  "LoginFail": "Failed to Login",
+  "LockScreen": "Lock Screen",
+  "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+  "WelcomeBack": "Welcome back",
+  "Lorem": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+  "Login": "Logging In...",
+  "Signin": "Sign In",
+  "title": "Lock Screen",
+  "desc": "You have been redirected here due to inactivity. If you're not the last user signed in, click on the top-left to sign-in with another account.",
+  "Welcome": "Welcome back,",
+  "WelcomeTxt": "Type your password below to sign in again.",
+  "unlocking": "Unlocking...",
+  "unlock": "Unlock"
+}

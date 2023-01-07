@@ -1,0 +1,10 @@
+{
+  "title": "Reset Password",
+  "subTitle": "Enter A New Password To Change Your Credentials",
+  "password": "Password",
+  "confirmPassword": "confirmPassword",
+  "cancelBtn": "Cancel",
+  "submitBtn": "Submit",
+  "PasswordChangeSuccess": "Password changed successfully",
+  "FailResetPassword": "Failed to reset Password"
+}

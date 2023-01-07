@@ -1,0 +1,42 @@
+.custom-cat-card{
+    background: #171723 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+.title-cat{
+    font: normal normal medium 20px/28px Poppins;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.footer-cat{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    text-align: left;
+    font: normal normal normal 14px/28px Poppins;
+    letter-spacing: 0px;
+    color: #3699FF;
+}
+.categories-list-sub{
+    margin-top: 10px;
+    .ant-list-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .list-sub-item{
+            text-align: left;
+            font: normal normal normal 14px/28px Poppins;
+            letter-spacing: 0px;
+            color: #92928F;
+        }
+        .ant-list-item {
+          border-bottom: none;
+          padding: 0px;
+        }
+      }
+}
+}

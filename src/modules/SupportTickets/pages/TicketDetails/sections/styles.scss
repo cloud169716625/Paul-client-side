@@ -1,0 +1,43 @@
+.custom-tickets-table {
+  .custom-table__table {
+    margin-top: 0px;
+  }
+  thead {
+    display: none;
+  }
+  .ant-table-cell {
+    padding: 0px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+}
+
+.ticket-history-table {
+  .custom-table__table {
+    margin-top: 0px;
+  }
+  .ant-table-cell {
+    padding: 0px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+}
+
+.action-icon.action-icon-active {
+  background: #3699ff;
+  border-color: #3699ff;
+}
+.action-icon {
+  padding: 8px;
+  border: 1px solid #ccc;
+  min-width: 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  &:hover {
+    background: #3699ff;
+    border-color: #3699ff;
+    color: #fff;
+    cursor: pointer;
+  }
+}

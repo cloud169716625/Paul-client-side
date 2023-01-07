@@ -1,0 +1,44 @@
+.invoice-details{
+    display: flex;
+    gap: 20px;
+}
+.column{
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+.column1{
+    float: left;
+    width: auto;
+    height: 200px;
+}
+.companyname{
+    float: right;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px;
+}
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    width: 50%; 
+} 
+.grid-child-element { 
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    float: right;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

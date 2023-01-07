@@ -1,0 +1,115 @@
+{
+  "pages": {
+    "login": {
+      "title": "Sign In Your Account",
+      "subTitle": "Enter Your Username And Password To Continue",
+      "username": "Email Address",
+      "password": "Password",
+      "placeholder": "Paul.Elliot@fakemail.com",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Sign In To Your Account"
+    },
+    "emailVerification": {
+      "title": "Email Verification",
+      "subTitle": "Please Check To Your Email Address To Verify It",
+      "verifyBtn": "Continue "
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subTitle": "Enter A New Password To Change Your Credentials",
+      "password": "Password",
+      "confirmPassword": "confirmPassword",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Submit"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subTitle": "Enter Your Email Address To Reset Your Password",
+      "emailAddress": "Email Address",
+      "placeholder": "Paul.Elliott@Fakemail.com",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Submit"
+    },
+    "unAuth": {
+      "title": "Unauthorized Access",
+      "description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+      "subTitle": "Why is this happening?",
+      "description2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    "underMaintenance": {
+      "title": "Under Maintenance",
+      "description": "This is a scheduled maintenance. We'll be back shortly."
+    },
+    "accountSuspended": {
+      "title": "Account Suspended",
+      "description1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+      "subTitle": "Why is this happening?",
+      "description2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore  ",
+      "btnSupport": "Contact Support"
+    },
+
+    "register": {
+      "username": "Username",
+      "fullName": "Full Name ",
+      "emailAddeess": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "brand": "Brand",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "zipCode": "Zip Code",
+      "status": "Status",
+      "ipAddress": "IP Address",
+      "createAccountBtn": "Create An Account"
+    },
+    "otp": {
+      "header": "One Time Pin",
+      "subTitle": "Enter The OTP Sent To Your Email Address",
+      "placeholder": "Enter One Time Pin",
+      "submitButton": "Submit",
+      "cancelButton": "Cancel"
+    },
+    "dashboard": {
+      "sidebar": [
+        {
+          "name": "Dashboard",
+          "path": "/client/dashboard",
+          "icon": "/icon/dashboard/menu/dashboard.svg"
+        },
+        {
+          "name": "Billing",
+          "path": "/client/dashboard/billing",
+          "icon": "/icon/dashboard/menu/billing.svg"
+        },
+        {
+          "name": "Support",
+          "path": "/client/dashboard/support",
+          "icon": "/icon/dashboard/menu/support.svg"
+        },
+        {
+          "name": "Knowledge Base",
+          "path": "/client/dashboard/knowledge-base",
+          "icon": "/icon/dashboard/menu/knowledge.svg"
+        },
+        {
+          "name": "Reports",
+          "path": "/client/dashboard/reports",
+          "icon": "/icon/dashboard/menu/reports.svg"
+        },
+        {
+          "name": "Settings",
+          "path": "/client/dashboard/settings",
+          "icon": "/icon/dashboard/menu/settings.svg"
+        }
+      ],
+
+      "topMenu": {}
+    },
+    "footer": {
+      "poweredBy": "Powered ..."
+    }
+  }
+}
