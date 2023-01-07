@@ -7,7 +7,7 @@ export function KnowledgeBase() {
       <Routes>
         <Route
           path="/"
-          element={<Navigate to="/client/dashboard/support/knowledge-base/support" />}
+          element={<Navigate to="/client/dashboard/support/knowledge-base/articles" />}
         />
         {pages?.map(({ path, Component }) => {
           return <Route key={path} path={path} element={<Component />} />;

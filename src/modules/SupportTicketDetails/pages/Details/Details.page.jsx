@@ -3,7 +3,7 @@ import { ArticlesData } from './mockup'
 import { SupportArticleCard } from 'components'
 import Pagination from 'components/Pagination'  
  
-export const ArticleList = () => { 
+export const Details = () => { 
   const [curPage, setCurPage] = useState(1);
   const RECORD_PER_PAGE = 4
   const [indexOfLastRecord, setIndexOfLastRecord] = useState(0) 
@@ -26,8 +26,6 @@ export const ArticleList = () => {
 
     setMessage("")
   }
-
-  console.log(articles)
 
   useEffect(() => {
     setIndexOfLastRecord(curPage * RECORD_PER_PAGE)
@@ -83,7 +81,7 @@ export const ArticleList = () => {
             </div>
           </div>
 
-          <div className="bg-[#171723] w-[100%] h-[288px] rounded-[8px] mt-[40px]">
+          <div className="bg-[#171723] w-[100%] h-[288px] rounded-[8px] mt-[40px] mb-[20px]">
             <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder="Enter Message..." style={{borderBottom: '1px dashed #323248'}} className="h-[227px] appearance-none block w-full px-[16px] py-[16px] text-base font-normal text-[#92928f] placeholder:text-[#92928F] bg-[#171723] bg-clip-padding bg-no-repeat border-none rounded-[8px] transition ease-in-out m-0 focus:bg-[#171723] focus:border-none focus:outline-none disabled:bg-[#323248] disabled:text-[#92928F]" />
             <div className="p-[16px]">
               <button onClick={handleSendMessage} type="button" className="bg-[#3699FF] w-[111px] h-[29px] text-[#fff] rounded-[4px]">Send Message</button>

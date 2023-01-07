@@ -17,10 +17,10 @@ export function DashboardLayout({ children, hide }) {
   const [activeDeepInnerSub, setActiveDeepInnerSub] = useState('')
   const { user, adminSession } = useSelector((state) => state.auth)
 
-  const Roles = user && user.userRolesResponse
+  const Roles = user && user?.userRolesResponse
   const isAdmin =
     adminSession ||
-    (Roles.userRoles && Roles.userRoles[0] && Roles.userRoles[0].enabled)
+    (Roles?.userRoles && Roles?.userRoles[0] && Roles?.userRoles[0]?.enabled)
 
   const { pathname } = useLocation()
 

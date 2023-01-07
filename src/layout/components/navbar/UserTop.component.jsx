@@ -21,7 +21,7 @@ function UserTop() {
   const navigate = useNavigate();
   const isOnline = window.navigator.onLine;
   const Roles = user && user.userRolesResponse;
-  const isAdmin = adminSession || (Roles.userRoles && Roles.userRoles[0] && Roles.userRoles[0].enabled);
+  const isAdmin = adminSession || (Roles?.userRoles && Roles?.userRoles[0] && Roles?.userRoles[0].enabled);
 
   useEffect(() => {
     if (connection) {

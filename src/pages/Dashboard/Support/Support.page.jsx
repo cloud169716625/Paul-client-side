@@ -1,13 +1,13 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import KnowledgeBase from '../KnowledgeBase/KnowledgeBase.page';
-import { SupportTickets } from 'modules';
+import { SupportTickets, SupportTicketDetails } from 'modules';
 
 function Support () {
   return (
     <Routes>
       <Route
         path="/"
-        element={<Navigate to="/client/dashboard/support/knowledge-base" />}
+        element={<Navigate to="/client/dashboard/support/ticket-details" />}
       />
       <Route
         path='/knowledge-base/*'
@@ -16,6 +16,10 @@ function Support () {
       <Route
         path='/tickets/*'
         element={<SupportTickets />}
+      />
+      <Route
+        path='/ticket-details/*'
+        element={<SupportTicketDetails />}
       />
     </Routes>
   );
